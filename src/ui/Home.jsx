@@ -3,11 +3,14 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="text-xl text-yellow-500 font-semibold">
-      <h1>
+    <div>
+      <h1 className="text-xl text-center font-semibold">
         The best pizza.
         <br />
+        <span className="text-yellow-500">
         Straight out of the oven, straight to you.
+        </span>
+        
       </h1>
     </div>
   );

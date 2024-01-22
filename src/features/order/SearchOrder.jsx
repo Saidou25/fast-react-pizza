@@ -19,6 +19,9 @@ const navigate = useNavigate();
         onChange={(e) => {
           setQuery(e.target.value);
         }}
+        className="rounded-full px-4 py-2 text-sm bg-yellow-200 
+        plasholder:text-stone 400 w-28 sm:w-64 sm:focus:w-72 transition-all duration-300 
+        focus:outline-none focus:ring-yellow-500 focus:ring-opacity-50"
       />
     </form>
   );

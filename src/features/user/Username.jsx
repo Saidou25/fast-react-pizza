@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Username() {
   return (
-    <div className='text-sm font-semibold'>Saidou Mont</div>
+    <div className='text-sm font-semibold hidden md:block'>Saidou Mont</div>
   )
 }

@@ -9,7 +9,6 @@ function Cart() {
   const username = useSelector((state) => state.user.username);
   const cart = useSelector(getCart);
   const dispatch = useDispatch();
-  console.log(cart)
 
   if (!cart.length) return <EmptyCart />
   return (
@@ -17,8 +16,8 @@ function Cart() {
       <LinkButton to="/menu">&larr; Back to menu</LinkButton>
       <h2 className="mt-7 text-xl font-semibold">Your cart, {username}</h2>
       <ul className="divide-y divide-stone-200 border-b border-stone-200 mt-3">
-        {cart.map((item, index) => (
-          <CartItem key={index} item={item} />
+        {cart.map((item) => (
+          <CartItem key={item.id} item={item} />
         ))}
       </ul>
       <div className="mt-6 space-x-2">

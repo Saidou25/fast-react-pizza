@@ -45,7 +45,7 @@ Clone the reposatory.
 
 ## Contributing
 
-A great thank you to Jonas Schmedtmann for his guidance.
+A great thank you to Jonas Schmedtmann.
 
 ## Questions
 

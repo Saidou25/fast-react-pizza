@@ -1,8 +1,52 @@
-# React + Vite
+# Fast React Pizza Co.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+##### Link to [React-fast-pizza](https://tmiworld-5f7c04c2f838.herokuapp.com/) (Vite + React + Tailwindcss).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+### Description
+
+This frontend single page application allows users to after entering their name, within a pizza menu select and add items to the cart, update or remove items from the cart. Once the cart created it can be edited (cleared), canceled or the order can be placed.
+
+## Table of Contents
+
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Visuals](#visuals)
+- [Contributing](#contributing)
+- [Questions](#questions)
+
+## Technologies
+
+- `vite`
+- `React`
+- `tailwindcss`
+- `react-router-dom`
+- `react-redux`
+- `Node.js`
+
+## Installation
+
+Clone the reposatory.
+`npm install`
+`npm run dev`
+
+## Visuals
+
+- Menu showing on going orders status:
+
+![Screenshot](./public/menu.jpg)
+
+- Order review page:
+
+![Screenshot](./public/orderreview.jpg)
+
+## Contributing
+
+A great thank you to Jonas Schmedtmann for his guidance.
+
+## Questions
+
+If you have any questions or wish to contact me please visit the app's [Sy25](https://github.com/Saidou25).

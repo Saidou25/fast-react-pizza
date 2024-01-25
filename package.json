@@ -1,9 +1,10 @@
 {
-  "homepage": "https://Saidou25/fast-react-pizza",
+  "homepage": "https://Saidou25/fast-react-pizza.git",
   "name": "fast-react-pizza",
   "private": false,
   "version": "0.0.0",
   "type": "module",
+  "node": "18.16.0",
   "scripts": {
     "vite": "vite",
     "build": "vite build",
